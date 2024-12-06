@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Climate Simulation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Climate Simulation</h1>
+      <p>Simulateur d'émissions de CO₂ pour le changement climatique.</p>
+    </header>
+
+    <section id="emissions-section">
+      <h2>Calcul des émissions de CO₂</h2>
+      <button onclick="generateTemperatureData()">
+        Générer les températures
+      </button>
+    </section>
+
+    <section id="climate-table-section">
+      <h2>Températures et conditions de vie</h2>
+      <table id="climate-table">
+        <thead>
+          <tr>
+            <th>Pays</th>
+            <th>Température (°C)</th>
+            <th>Heure idéale pour vivre</th>
+            <th>Possibilité de tsunami</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </section>
+
+    <div class="sun"></div>
+
+    <div class="rain">
+      <div class="rain-drop" style="left: 10%; animation-delay: 0s"></div>
+      <div class="rain-drop" style="left: 30%; animation-delay: 0.2s"></div>
+      <div class="rain-drop" style="left: 50%; animation-delay: 0.4s"></div>
+      <div class="rain-drop" style="left: 70%; animation-delay: 0.6s"></div>
+      <div class="rain-drop" style="left: 90%; animation-delay: 0.8s"></div>
+    </div>
+
+    <div class="urgent">
+      Urgence climatique : Les émissions de CO₂ atteignent des niveaux critiques
+      !
+    </div>
+
+    <footer>
+      <p>Développé par l'équipe Worst Code Ever!</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

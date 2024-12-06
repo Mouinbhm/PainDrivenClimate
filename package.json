@@ -1,0 +1,19 @@
+{
+  "name": "paindrivenclimate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
